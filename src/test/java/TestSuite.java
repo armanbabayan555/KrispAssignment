@@ -7,7 +7,6 @@ import pageobjects.screens.KrispLoginScreen;
 import static messages.Messages.*;
 
 public class TestSuite extends BaseTest {
-
     @Test(description = "Checking the functionality of logging in, clicking on What's New, and logging out.")
     public void krispTest() {
         final String email = "armanbabayan2001@gmail.com";

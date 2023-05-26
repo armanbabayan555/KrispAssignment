@@ -13,7 +13,6 @@ import java.util.List;
 import static setup.DriverUtils.getDriver;
 
 public abstract class BaseScreen {
-
     protected static WebDriver driver;
     protected Actions actions;
 
@@ -49,6 +48,7 @@ public abstract class BaseScreen {
             return false;
         }
     }
+
     public String getText(By locator) {
         try {
             return WaitUtils.getInstance().waitForElementToBeVisible(locator).getText();
@@ -56,6 +56,7 @@ public abstract class BaseScreen {
             return null;
         }
     }
+
     public void typeTextInField(By locator, String text) {
         WebElement element = WaitUtils.getInstance().waitForElementToBeClickable(locator);
         element.click();
