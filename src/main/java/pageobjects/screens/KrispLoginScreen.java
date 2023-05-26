@@ -5,6 +5,7 @@ import org.openqa.selenium.By;
 import pageobjects.base.BaseScreen;
 
 public class KrispLoginScreen extends BaseScreen {
+
     private final By emailBox = By.id(KrispLoginScreenLocators.EMAIL);
     private final By signInButton = By.xpath(KrispLoginScreenLocators.SIGN_IN);
 

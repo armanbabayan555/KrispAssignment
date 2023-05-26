@@ -1,6 +1,7 @@
 package locators;
 
 public class KrispAccountScreenLocators {
+
     public static final String USER_INFO_BUTTON = "/html/body/div[1]/section/section/main/div[1]/div[1]/div/div[2]/div";
     public static final String EMAIL = "//*[@data-test-id = 'userEmail']";
     public static final String SIDEBAR_BUTTONS = "//*[@data-test-id = 'sidebarNavLinks']";

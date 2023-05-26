@@ -5,6 +5,7 @@ import org.testng.annotations.BeforeMethod;
 import setup.DriverUtils;
 
 public abstract class BaseTest {
+
     @BeforeMethod
     public void startDriver() {
         DriverUtils.setDriver();

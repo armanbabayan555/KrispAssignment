@@ -5,6 +5,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
 public abstract class DriverUtils {
+
     private static WebDriver driver;
 
     public static WebDriver getDriver() {

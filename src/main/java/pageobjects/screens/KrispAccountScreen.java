@@ -6,6 +6,7 @@ import pageobjects.base.BaseScreen;
 import setup.WaitUtils;
 
 public class KrispAccountScreen extends BaseScreen {
+
     private final By userInfoButton = By.xpath(KrispAccountScreenLocators.USER_INFO_BUTTON);
     private final By email = By.xpath(KrispAccountScreenLocators.EMAIL);
     private final By helpButton = By.xpath(KrispAccountScreenLocators.HELP_BUTTON);

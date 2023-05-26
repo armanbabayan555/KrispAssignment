@@ -13,6 +13,7 @@ import java.util.List;
 import static setup.DriverUtils.getDriver;
 
 public abstract class BaseScreen {
+
     protected static WebDriver driver;
     protected Actions actions;
 
